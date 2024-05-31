@@ -13,7 +13,7 @@ function Footer() {
           </a>
           <span>|</span>
           <a
-            href="https://lindekin.com/in/stefanoturcarelli"
+            href="https://linkedin.com/in/stefanoturcarelli"
             target="_blank"
             rel="noreferrer"
           >
