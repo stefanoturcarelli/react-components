@@ -19,7 +19,7 @@ function App() {
       quote: "I'm gonna make him an offer he can't refuse.",
       movie: "The Godfather",
       year: 1972,
-      img: "https://th.bing.com/th/id/R.6adacd3a7e642691a6bd87118271cd14?rik=XMPOEf3ilMejaQ&pid=ImgRaw&r=0",
+      img: "https://cdn.jsdelivr.net/gh/stefanoturcarelli/cdn/the-godfather/1.jpeg",
       whoSaidIt: "Vito Corleone",
     },
     {
@@ -27,7 +27,7 @@ function App() {
       quote: "Keep your friends close, but your enemies closer.",
       movie: "The Godfather Part II",
       year: 1974,
-      img: "https://i.ytimg.com/vi/ZWyZbkdyhZk/maxresdefault.jpg",
+      img: "https://cdn.jsdelivr.net/gh/stefanoturcarelli/cdn/the-godfather/2.jpg",
       whoSaidIt: "Michael Corleone",
     },
     {
@@ -35,7 +35,7 @@ function App() {
       quote: "It's not personal, Sonny. It's strictly business.",
       movie: "The Godfather",
       year: 1972,
-      img: "https://i.ytimg.com/vi/by5YzWJ9W4U/maxresdefault.jpg",
+      img: "https://cdn.jsdelivr.net/gh/stefanoturcarelli/cdn/the-godfather/3.jpg",
       whoSaidIt: "Michael Corleone",
     },
     {
@@ -43,7 +43,7 @@ function App() {
       quote: "I know it was you, Fredo. You broke my heart.",
       movie: "The Godfather Part II",
       year: 1974,
-      img: "https://y.yarn.co/0df14e10-5e1a-43aa-937d-a0563e729199_thumb.jpg",
+      img: "https://cdn.jsdelivr.net/gh/stefanoturcarelli/cdn/the-godfather/4.jpg",
       whoSaidIt: "Michael Corleone",
     },
   ];
