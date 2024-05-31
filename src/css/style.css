@@ -48,10 +48,9 @@ li {
 .banner-background {
   height: calc(100svh - 70px);
   background-image: url(../img/banner.png);
-  background-size: 35%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: right 210px;
-  background-position-y: center;
+  background-position: center;
 }
 
 .banner-text {
