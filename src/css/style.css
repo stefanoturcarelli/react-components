@@ -1,0 +1,146 @@
+body {
+  color: #f1f1f1;
+  background-color: #000;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+header {
+  height: 70px;
+}
+
+h1 {
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+nav {
+  line-height: 70px;
+}
+
+li {
+  list-style: none;
+}
+
+.banner-background {
+  height: calc(100svh - 70px);
+  background-image: url(../img/banner.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position-x: right 210px;
+  background-position-y: center;
+}
+
+.banner-text {
+  font-size: 8rem;
+  white-space: pre-line;
+}
+
+.container-text {
+  height: calc(100vh - 250px);
+  display: grid;
+  align-content: end;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.primary-button-style {
+  background-color: #460202;
+  color: #fff;
+  border: 1px solid #460202;
+  transition: 0.3s all ease-in-out;
+}
+
+.primary-button-style:hover {
+  background-color: #760404;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  transition: 0.3s all ease-in-out;
+}
+
+.secondary-button-style {
+  background-color: transparent;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  transition: 0.3s all ease-in-out;
+}
+
+.secondary-button-style:hover {
+  background-color: #3c3c3c;
+  transition: 0.3s all ease-in-out;
+  border: 1px solid #fff;
+}
+
+.card {
+  width: 300px;
+}
+
+.card-text {
+  padding: 15px;
+  background-color: #460202;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.movie {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 1.5rem;
+}
+
+.who-said-it {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+footer {
+  margin-top: 120px;
+  height: 70px;
+  text-align: center;
+}
