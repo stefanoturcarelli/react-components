@@ -1,6 +1,6 @@
 # React Components
 
-
+This project is a collection of React components that I have created for my personal projects. The components are designed to be reusable and easy to integrate into any React application.
 
 ## Screenshots
 
