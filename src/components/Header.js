@@ -6,13 +6,13 @@ function Header(props) {
         <nav>
           <ul className="flex space-between gap-15">
             <li>
-              <a href="/index.html">{props.home}</a>
+              <a href="/public/index.html">{props.home}</a>
             </li>
             <li>
-              <a href="/index.html">{props.about}</a>
+              <a href="/public/index.html">{props.about}</a>
             </li>
             <li>
-              <a href="/index.html">{props.contact}</a>
+              <a href="/public/index.html">{props.contact}</a>
             </li>
           </ul>
         </nav>
