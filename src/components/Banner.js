@@ -1,8 +1,8 @@
 import Button from "./Button.js";
 
 function Banner(props) {
-  let primaryButton = "primary-button-style";
-  let secondaryButton = "secondary-button-style";
+  const primaryButton = "primary-button-style";
+  const secondaryButton = "secondary-button-style";
 
   let isLoggedIn = false;
 
@@ -13,8 +13,8 @@ function Banner(props) {
           <p className="banner-text">{props.line1}</p>
           <p className="banner-text">{props.line2}</p>
         </div>
-        <Button style={primaryButton} isLoggedIn={isLoggedIn} />
-        <Button style={secondaryButton} isLoggedIn={isLoggedIn} />
+        <Button style={{ primaryButton }} isLoggedIn={isLoggedIn} />
+        <Button style={{ secondaryButton }} isLoggedIn={isLoggedIn} />
       </div>
     </section>
   );
