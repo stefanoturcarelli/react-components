@@ -1,6 +1,6 @@
 function Button(props) {
   return (
-    <button className={props.style}>
+    <button className={props.className}>
       {props.isLoggedIn ? "Start Here" : "Join Now"}
     </button>
   );
