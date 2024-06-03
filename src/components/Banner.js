@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./Button.js";
 
 function Banner(props) {
   let primaryButton = "primary-button-style";
